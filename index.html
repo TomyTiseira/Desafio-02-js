@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Desafio 02: Eventos</title>
+  </head>
+  <body>
+      <section id="menu">
+        <!-- Titulo de la sección -->
+        <h2 class="text-center text-uppercase fs-1 pb-3">Nuestro <span>menu</span></h2>
+        <!-- Container -->
+        <div class="grid-container">
+            <!-- Box -->
+            <div class="box-grid text-center">
+                <img src="images/promociones1.webp"
+                    alt="Promociones Coffe Fe">
+                <h3 class="fs-5 py-2">Skinny Vainilla Latte</h3>
+                <div class="fs-6">$ <span>399.99</span></div>
+                <a href="#" class="fs-6 d-inline-block boton-a agregar-carrito" data-id="1">Agregar Al Carrito</a>
+            </div>
+            <!-- Box -->
+            <div class="box-grid text-center">
+                <img src="images/promociones2.webp"
+                    alt="Promociones Coffe Fe">
+                <h3 class="fs-5 py-2">Cappuccino</h3>
+                <div class="fs-6">$ <span>450.00</span></div>
+                <a href="#" class="fs-6 d-inline-block boton-a agregar-carrito" data-id="2">Agregar Al Carrito</a>
+            </div>
+            <!-- Box -->
+            <div class="box-grid text-center">
+                <img src="images/promociones3.webp"
+                    alt="Promociones Coffe Fe">
+                <h3 class="fs-5 py-2">Americano</h3>
+                <div class="fs-6">$ <span>354.99</span></div>
+                <a href="#" class="fs-6 d-inline-block boton-a agregar-carrito" data-id="3">Agregar Al Carrito</a>
+            </div>
+            <!-- Box -->
+            <div class="box-grid text-center">
+                <img src="images/promociones4.webp"
+                    alt="Promociones Coffe Fe">
+                <h3 class="fs-5 py-2">Skinny Caramel Macchiato</h3>
+                <div class="fs-6">$ <span>435.40</span></div>
+                <a href="#" class="fs-6 d-inline-block boton-a agregar-carrito" data-id="4">Agregar Al Carrito</a>
+            </div>
+            <!-- Box -->
+            <div class="box-grid text-center">
+                <img src="images/promociones5.webp"
+                    alt="Promociones Coffe Fe">
+                <h3 class="fs-5 py-2">Latte Macchiato</h3>
+                <div class="fs-6">$ <span>489.98</span></div>
+                <a href="#" class="fs-6 d-inline-block boton-a agregar-carrito" data-id="5">Agregar Al Carrito</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="containerCarrito">
+        <h2 class="text-center text-uppercase fs-1 pb-3"><span>Carrito</span></h2>
+        <!-- Container -->
+        <div class="grid-container" id="carrito"></div>
+        <div id="total"></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
